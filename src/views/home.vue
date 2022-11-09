@@ -1,7 +1,7 @@
 <template>
-  <div style="margin-top:200px">
+  <div style="margin-top:100px">
     <h3 style="font-weight:bolder">学生管理系统</h3>
-    <button style="background: green; margin-top:50px; margin-bottom:50px" @click="dialogFormVisible = true"
+    <button style="background: green; margin-top:40px; margin-bottom:40px" @click="dialogFormVisible = true"
       :editData="tsData">添加</button>
 
     <el-table :data="tableObj.tableData" style="width: auto">
